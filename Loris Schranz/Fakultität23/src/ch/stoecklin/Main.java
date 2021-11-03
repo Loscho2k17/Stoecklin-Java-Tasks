@@ -6,4 +6,8 @@ public class Main {
 	// write your code here
         System.out.println("Hello World!");
     }
+
+    public static void n23(int number){
+
+    }
 }

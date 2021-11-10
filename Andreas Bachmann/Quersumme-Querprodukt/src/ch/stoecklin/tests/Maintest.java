@@ -4,8 +4,8 @@ import static org.junit.jupiter.api.Assertions.*;
 
 import org.junit.jupiter.api.Test;
 import static org.junit.jupiter.api.Assertions.assertEquals;
-import static ch.stoecklin.Main.
-import ch.stoecklin.Digits.
+import static ch.stoecklin.Main.main;
+import static ch.stoecklin.Digits.main;
 class Maintest {
 
 	@Test

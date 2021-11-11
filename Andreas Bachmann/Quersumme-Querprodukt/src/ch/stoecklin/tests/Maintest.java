@@ -3,22 +3,20 @@ package ch.stoecklin.tests;
 import static org.junit.jupiter.api.Assertions.*;
 
 import org.junit.jupiter.api.Test;
-import static org.junit.jupiter.api.Assertions.assertEquals;
-import static ch.stoecklin.Main.main;
-import static ch.stoecklin.Digits.main;
+import static ch.stoecklin.Main.*;
 class Maintest {
 
 	@Test
 	void fnof100equals12() {
-		assertEquals(12,fn(100));
+		assertEquals(12,count(100));
 	}
 	@Test
 	void fnof1000000equals309() {
-		assertEquals(309,fn(1000000));
+		assertEquals(309,count(1000000));
 	}
 	@Test
 	void fnof5000000equals742() {
-		assertEquals(742,fn(5000000));
+		assertEquals(742,count(5000000));
 	}
 
 }

@@ -6,6 +6,11 @@ public class Main {
 
     private static Scanner input;
 
+    /**
+     * @param args
+     * @author sathu With the main methode a new object world will be generated and the user can choose what he want to
+     *         do (addContinent, removeContinent,...)
+     */
     public static void main(String[] args) {
         input = new Scanner(System.in);
         createWorld();
